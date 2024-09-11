@@ -1,0 +1,95 @@
+@charset "UTF-8";
+
+/* Importando a fonte */
+@import url('https://fonts.googleapis.com/css2?family=Merienda:wght@300..900&display=swap');
+
+/* Resetando a margin e o padding */
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+/* Cores e fontes */
+:root {
+    --color1: #F6F4F4;
+    --color2: #0B0B09;
+    --color3: #6E7E85;
+
+    --font-title: Verdana, Tahoma, sans-serif;
+    --font-body: "Merienda", sans-serif;
+}
+
+/* Configurando a header */
+header {
+    font: bold 2em var(--font-title);
+    background-color: var(--color2);
+    color: var(--color1);
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Configurando o footer */
+footer {
+    font: bold 1em var(--font-title);
+    background-color: var(--color2);
+    color: var(--color1);
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+a {
+    color: var(--color1);
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Configurando a main */
+.container {
+    font: normal 2.5em var(--font-body);
+    display: flex;
+    flex-direction: column;
+    gap: 20px 0px;
+}
+
+/* Configurando as divs com texto */
+.text {
+    padding: 70px;
+}
+
+/* Configurando as divs com texto e imagem */
+.text-image {
+    background-color: var(--color3);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 40px;
+}
+
+/* Configurando os parágrafos dentro das divs com imagem */
+.text-image > p {
+    background-color: rgba(0, 0, 0, 0.25);
+    color: var(--color1);
+    max-width: 45vw;
+    margin: 10px 0px;
+    padding: 30px;
+    border-radius: 10px;
+}
+
+/* Adicionando as imagens de fundo */
+#img1 {
+    background-image: url(assets/img/clock.jpg);
+}
+
+#img2 {
+    background-image: url(assets/img/couple.jpg);
+}
