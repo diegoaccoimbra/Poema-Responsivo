@@ -62,7 +62,7 @@ a:hover {
 
 /* Configurando as divs com texto */
 .text {
-    padding: 70px;
+    padding: 50px 100px;
 }
 
 /* Configurando as divs com texto e imagem */
@@ -72,24 +72,24 @@ a:hover {
     background-position: center;
     background-size: cover;
     background-attachment: fixed;
-    padding: 40px;
+    padding: 50px 80px;
 }
 
 /* Configurando os parágrafos dentro das divs com imagem */
 .text-image > p {
-    background-color: rgba(0, 0, 0, 0.25);
+    background-color: rgba(0, 0, 0, 0.4);
     color: var(--color1);
     max-width: 45vw;
     margin: 10px 0px;
-    padding: 30px;
+    padding: 20px;
     border-radius: 10px;
 }
 
 /* Adicionando as imagens de fundo */
 #img1 {
-    background-image: url(assets/img/clock.jpg);
+    background-image: url(../img/clock.jpg);
 }
 
 #img2 {
-    background-image: url(assets/img/couple.jpg);
+    background-image: url(../img/couple.jpg);
 }
