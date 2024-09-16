@@ -2,6 +2,8 @@
 
 Projeto de um site responsivo com o poema "O tempo passa? Não passa" do poeta brasileiro Carlos Drummond de Andrade utilizando flexbox e outras propriedades de CSS.
 
+## Acesse clicando [aqui](https://diegoaccoimbra.github.io/Poema-Responsivo/).
+
 ## "O tempo passa? Não passa" por Carlos Drummond de Andrade.
 ```
 O tempo passa? Não passa
