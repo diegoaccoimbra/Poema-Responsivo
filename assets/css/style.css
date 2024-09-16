@@ -21,7 +21,7 @@
 
 /* Configurando a header */
 header {
-    font: bold 2em var(--font-title);
+    font: bold 1.4em var(--font-title);
     background-color: var(--color2);
     color: var(--color1);
     padding: 30px;
@@ -54,15 +54,15 @@ a:hover {
 
 /* Configurando a main */
 .container {
-    font: normal 2.5em var(--font-body);
+    font: normal 1.4em var(--font-body);
     display: flex;
     flex-direction: column;
-    gap: 20px 0px;
+    gap: 10px 0px;
 }
 
 /* Configurando as divs com texto */
 .text {
-    padding: 50px 100px;
+    padding: 25px 50px;
 }
 
 /* Configurando as divs com texto e imagem */
@@ -72,15 +72,14 @@ a:hover {
     background-position: center;
     background-size: cover;
     background-attachment: fixed;
-    padding: 50px 80px;
+    padding: 25px 30px;
 }
 
 /* Configurando os parágrafos dentro das divs com imagem */
 .text-image > p {
     background-color: rgba(0, 0, 0, 0.4);
     color: var(--color1);
-    max-width: 45vw;
-    margin: 10px 0px;
+    max-width: 325px;
     padding: 20px;
     border-radius: 10px;
 }
@@ -92,4 +91,67 @@ a:hover {
 
 #img2 {
     background-image: url(../img/couple.jpg);
+}
+
+/* Media queries */
+/* Tablet */
+@media (min-width: 680px) and (max-width: 1199px) {
+    
+    header {
+        font: bold 1.6em var(--font-title);
+    }
+
+    footer {
+        font: bold 1em var(--font-title);
+    }
+
+    .container {
+        font: normal 2em var(--font-body);
+        gap: 15px 0px;
+    }
+
+    .text {
+        padding: 35px 90px;
+    }
+
+    .text-image {
+        padding: 30px 70px;
+    }
+
+    .text-image > p {
+        max-width: 480px;
+        margin: 5px 0px;
+        padding: 20px;
+    }
+}
+
+/* Desktop */
+@media (min-width: 1200px) {
+
+    header {
+        font: bold 2em var(--font-title);
+    }
+
+    footer {
+        font: bold 1em var(--font-title);
+    }
+
+    .container {
+        font: normal 2.5em var(--font-body);
+        gap: 20px 0px;
+    }
+
+    .text {
+        padding: 50px 100px;
+    }
+
+    .text-image {
+        padding: 50px 80px;
+    }
+
+    .text-image > p {
+        max-width: 45vw;
+        margin: 10px 0px;
+        padding: 20px;
+    }
 }
