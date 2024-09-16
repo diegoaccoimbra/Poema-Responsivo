@@ -2,8 +2,8 @@
 
 Projeto de um site responsivo com o poema "O tempo passa? Não passa" do poeta brasileiro Carlos Drummond de Andrade utilizando flexbox e outras propriedades de CSS.
 
-"O tempo passa? Não passa" por Carlos Drummond de Andrade.
-
+## "O tempo passa? Não passa" por Carlos Drummond de Andrade.
+```
 O tempo passa? Não passa
 no abismo do coração.
 Lá dentro, perdura a graça
@@ -33,3 +33,4 @@ E nosso amor, que brotou
 do tempo, não tem idade,
 pois só quem ama
 escutou o apelo da eternidade.
+```
