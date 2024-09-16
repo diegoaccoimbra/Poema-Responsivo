@@ -54,7 +54,7 @@ a:hover {
 
 /* Configurando a main */
 .container {
-    font: normal 1.4em var(--font-body);
+    font: normal 1.2em var(--font-body);
     display: flex;
     flex-direction: column;
     gap: 10px 0px;
